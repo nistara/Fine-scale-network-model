@@ -17,7 +17,7 @@
 # ==============================================================================
 #
 # Set up the pre-simulation network and data for outbreaks starting from 890
-# Note: 890 is the mode for Kigali
+# Note: 890 is the node for Kigali
 #
 # ==============================================================================
 
