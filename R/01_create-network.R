@@ -14,7 +14,7 @@ library(htmlwidgets)
 # * Load data
 # ==============================================================================
 
-matrix_files = list.files("data/arcgis-export/2016-07-14_Network/",
+matrix_files = list.files("data/arcgis-export/",
                           pattern = "matrix_", full.names = TRUE)
 
 net_matrix = do.call(rbind,
@@ -22,7 +22,7 @@ net_matrix = do.call(rbind,
 
 head(net_matrix)
 
-net_points = read.table("data/arcgis-export/2016-07-14_Network/points.txt",
+net_points = read.table("data/arcgis-export/points.txt",
                         header = TRUE, sep=',', stringsAsFactors = FALSE)
 
 head(net_points)
