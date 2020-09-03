@@ -1,6 +1,7 @@
 # ==============================================================================
 #
-# Simulating outbreaks starting from node 539
+# Set up the pre-simulation network and data for outbreaks starting from 539
+# Note: 539 is the node for Kibungo
 #
 # ==============================================================================
 

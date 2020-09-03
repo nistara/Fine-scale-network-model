@@ -1,6 +1,7 @@
 # ==============================================================================
 #
-# Simulating outbreaks starting from node 1239
+# Set up the pre-simulation network and data for outbreaks starting from 1239
+# Note: 1239 is the mode for Rubavu
 #
 # ==============================================================================
 

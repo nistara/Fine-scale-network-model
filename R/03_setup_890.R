@@ -3,17 +3,23 @@
 ## 1. Reads in an igraph object (with commuting proportions previously
 ##      calculated)
 ## 
-## 2. Calculates and attaches  "Effective Population" to graph
-##
-## 3. Seeds a node with specified number of infectious individuals (taking them
+## 2. Seeds desired nodes with specified number of infectious individuals (taking them
 ##      out from the Susceptibles and adding to Infectious compartment
+##
+## 3. Sets up vaccination scenarios if present
 ##
 ## 4. Creates the FOI structure/scaffold used to quickly calculate FOI
 ##      (FOI = Force of Infection, acting on an individual in a node)
+##    And sets up the pre-simulation network and data
 ##
-## 5. Simulates simplified SEIR models
 ################################################################################
 
+# ==============================================================================
+#
+# Set up the pre-simulation network and data for outbreaks starting from 890
+# Note: 890 is the mode for Kigali
+#
+# ==============================================================================
 
 
 # Libraries

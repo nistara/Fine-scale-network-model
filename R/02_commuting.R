@@ -5,7 +5,6 @@
 ##      (1606 * 1606) - 1606 = 2577630
 ##      OR (1606 * 1605) = 2577630
 ##      NOTE: they go from 0-1605, not 1-1606
-##            the matrix is arranged from smallest distance to largest one
 # ==============================================================================
                         
 library(igraph)
