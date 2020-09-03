@@ -14,16 +14,20 @@ library(htmlwidgets)
 # * Load data
 # ==============================================================================
 
-net_matrix = read.table("data/arcgis-export/2016-07-14_Network/2016-07-14_Matrix.txt",
-                        header=TRUE, sep=',', stringsAsFactors = FALSE)
+matrix_files = list.files("data/arcgis-export/2016-07-14_Network/",
+                          pattern = "matrix_", full.names = TRUE)
+
+net_matrix = do.call(rbind,
+                     lapply(matrix_files, read.csv, stringsAsFactors = FALSE))
+
 head(net_matrix)
 
-net_points = read.table("data/arcgis-export/2016-07-14_Network/2016-07-14_Points.txt",
+net_points = read.table("data/arcgis-export/2016-07-14_Network/points.txt",
                         header = TRUE, sep=',', stringsAsFactors = FALSE)
+
 head(net_points)
 names(net_points)
 
-# net_points = net_points[ , c("FID", "FID_rwa_po", "rwa_poly_d", "dissolve_9", "POINT_X", "POINT_Y")]
 net_points = net_points[ , c("FID", "NEAR_X", "NEAR_Y", "SUM")]
 head(net_points)
 
