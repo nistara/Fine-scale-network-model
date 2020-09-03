@@ -17,7 +17,7 @@ library(future.apply)
 
 # * Source code
 # ==============================================================================
-invisible(lapply(list.files("../disnet/R", full = TRUE), source))
+invisible(lapply(list.files("R/disnet", full = TRUE), source))
 
 
 # ** set up future_lapply for parallelizing simulation runs

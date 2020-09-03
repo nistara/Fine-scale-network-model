@@ -14,7 +14,7 @@ library(dplyr)
 
 # source code
 # ==============================================================================
-invisible(lapply(list.files("../disnet/R", full = TRUE), source))
+invisible(lapply(list.files("R/disnet", full = TRUE), source))
 
 
 # Read in created Rwanda network graph

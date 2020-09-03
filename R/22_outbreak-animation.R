@@ -16,7 +16,7 @@ library(cowplot)
 
 extrafont::loadfonts()
 
-invisible(lapply(list.files("../disnet/R", full = TRUE), source))
+invisible(lapply(list.files("R/disnet", full = TRUE), source))
 
 
 # * Read and choose the folders for evaluation
