@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/292466117.svg)](https://zenodo.org/badge/latestdoi/292466117)
+
 # Fine scale infectious disease spatial modeling using satellite-derived data: application to pandemic influenza in Rwanda
 
 **Authors:** Nistara Randhawa [1], Hugo Mailhot [2], Duncan Temple Lang [3], Beatriz Martínez-López[4], Kirsten Gilardi [1], Jonna A.K. Mazet [1]
