@@ -9,8 +9,9 @@
 [3] Department of Statistics, University of California, Davis, USA  
 [4] Center for Animal Disease Modeling and Surveillance, Department of Medicine & Epidemiology, School of Veterinary Medicine, University of California, Davis, USA
 
-This repository contains scripts for publication:
-Randhawa, N., Mailhot, H., Lang, D.T. et al. Fine scale infectious disease modeling using satellite-derived data. Sci Rep 11, 6946 (2021). https://doi.org/10.1038/s41598-021-86124-2
+This repository contains scripts for the publication:
+
+[Randhawa, N., Mailhot, H., Lang, D.T. et al. Fine scale infectious disease modeling using satellite-derived data. Sci Rep 11, 6946 (2021).]( https://doi.org/10.1038/s41598-021-86124-2)
 
 ![](/figs/simulation-eg.gif)
 
