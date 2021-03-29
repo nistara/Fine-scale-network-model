@@ -17,7 +17,11 @@ library(future.apply)
 
 # * source code
 # ==============================================================================
-invisible(lapply(list.files("R/disnet", full = TRUE), source))
+invisible(lapply(list.files("R/SEEDNet", full = TRUE), source))
+# OR
+# devtools::install_github("nistara/SEEDNet@v0.1")
+# library(SEEDNet)
+
 
 # Other simulation info---------------------------------------------------------
 seed_inf_no = 1

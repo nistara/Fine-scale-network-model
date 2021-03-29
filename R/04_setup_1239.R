@@ -14,7 +14,10 @@ library(dplyr)
 
 # * Source code
 # ==============================================================================
-invisible(lapply(list.files("R/disnet", full = TRUE), source))
+invisible(lapply(list.files("R/SEEDNet", full = TRUE), source))
+# OR
+# devtools::install_github("nistara/SEEDNet@v0.1")
+# library(SEEDNet)
 
 
 # * Disease parameters

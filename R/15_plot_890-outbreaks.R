@@ -6,9 +6,11 @@ library(ggplot2)
 library(hrbrthemes)
 require(ggthemes) 
 
+invisible(lapply(list.files("R/SEEDNet", full = TRUE), source))
+# OR
+# devtools::install_github("nistara/SEEDNet@v0.1")
+# library(SEEDNet)
 
-
-invisible(lapply(list.files("R/disnet", full = TRUE), source))
 
 # ==============================================================================
 # Load data

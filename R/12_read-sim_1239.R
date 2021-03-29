@@ -4,7 +4,10 @@
 library(dplyr)
 
 
-invisible(lapply(list.files("R/disnet", full = TRUE), source))
+invisible(lapply(list.files("R/SEEDNet", full = TRUE), source))
+# OR
+# devtools::install_github("nistara/SEEDNet@v0.1")
+# library(SEEDNet)
 
 
 # * Read and choose the folders for evaluation
