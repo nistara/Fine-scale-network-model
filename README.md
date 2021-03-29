@@ -11,6 +11,8 @@
 
 This repository contains scripts for the in-prep publication "Fine scale infectious disease spatial modeling using satellite-derived data: application to pandemic influenza in Rwanda".
 
+![](/figs/supplementary-2_simulation-eg.gif)
+
 #### General session info
 ```
 R version 3.6.0 (2019-04-26)
